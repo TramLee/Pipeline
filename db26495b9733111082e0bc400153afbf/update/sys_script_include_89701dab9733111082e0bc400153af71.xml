@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.pipelineScript</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>pipelineScript</name>
+        <script><![CDATA[var pipelineScript = Class.create();
+pipelineScript.prototype = {
+    initialize: function() {
+		gs.info('Running pipelineScript','pipelineScript');
+    },
+
+    type: 'pipelineScript'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-22 04:41:15</sys_created_on>
+        <sys_id>89701dab9733111082e0bc400153af71</sys_id>
+        <sys_name>pipelineScript</sys_name>
+        <sys_package display_value="pipeline" source="db26495b9733111082e0bc400153afbf">db26495b9733111082e0bc400153afbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="pipeline">db26495b9733111082e0bc400153afbf</sys_scope>
+        <sys_update_name>sys_script_include_89701dab9733111082e0bc400153af71</sys_update_name>
+    </sys_script_include>
+</record_update>
